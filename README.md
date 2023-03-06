@@ -8,8 +8,8 @@ Bash script to connect to a random wireguard [Mullvad VPN](https://mullvad.net/)
 ```
 git clone https://github.com/milesrack/mullvad-rand.git
 cd mullvad-rand
-echo "alias mullvad-rand='$(pwd)/mullvad-rand.sh'" >> $HOME/.bashrc
-source $HOME/.bashrc
+sudo cp mullvad-rand /usr/local/bin
+sudo chmod +x /usr/local/bin/mullvad-rand
 ```
 
 ## Usage
